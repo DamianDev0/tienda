@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "host": "http://localhost:3000",
+    "cors": {
+      "origin": "*",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "allowedHeaders": [
+        "Content-Type",
+        "Authorization"
+      ]
+    }
+  },
+  "visits": [
+    {
+      "id": "45fe",
+      "username": "damian",
+      "email": "dg997678@gmail.com",
+      "password": "U2FsdGVkX19OGZYOffUlBALkQgtUAn1Vuc7nLv7zDMk=",
+      "role_id": "1"
+    },
+    {
+      "id": "5608",
+      "username": "jesica",
+      "email": "Jesica.ocardenas@gmail.com",
+      "password": "U2FsdGVkX1+xxJlnBvbhxBiWdf4uBjDexJ1aLtXiJXY=",
+      "role_id": "1"
+    },
+    {
+      "id": "d4cb",
+      "username": "nose",
+      "email": "rojastiago324@gmail.com",
+      "password": "U2FsdGVkX1+Tg5WMANUqkzBpbkNveIXkl9rwBGX9Wjw=",
+      "role_id": "1"
+    }
+  ],
+  "admin": [
+    {
+      "id": "2",
+      "username": "damian",
+      "email": "damian@gmail.com",
+      "password": "U2FsdGVkX19OGZYOffUlBALkQgtUAn1Vuc7nLv7zDMk=",
+      "role_id": "2"
+    }
+  ],
+  "products": [
+    {
+      "id": "2414",
+      "name": "labial",
+      "description": "no se ",
+      "price": "23",
+      "stock": "4",
+      "category": "Maquillaje"
+    },
+    {
+      "id": "12cf",
+      "name": "polvo",
+      "description": "melo",
+      "price": "34",
+      "stock": "4",
+      "category": "Maquillaje"
+    },
+    {
+      "id": "21f0",
+      "name": "blokueador",
+      "description": "pa la piel",
+      "price": "345",
+      "stock": "45",
+      "category": "Cuidado de la piel"
+    },
+    {
+      "id": "af79",
+      "name": "cejas",
+      "description": "dnejnd",
+      "price": "3",
+      "stock": "5",
+      "category": "Accesorios de belleza"
+    }
+  ],
+  "orders": []
+}
